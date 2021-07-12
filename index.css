@@ -1,13 +1,44 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+    /* uigradients.com */
+   background: #bdc3c7;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   font-family: 'Roboto', sans-serif;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   min-height: 100vh;
+   align-items: center;
+   margin: 0;
 }
 
 .container {
-    max-width: 570px;
-    margin: 0 auto;
+   max-width: 570px;
 }
 
 h1, h2 {
-    font-weight: 300;
+   font-weight: 300;
+}
+
+button {
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   background-color: #15618A;
+   border: 1px solid #03f0fc;
+   cursor: pointer;
+   color: #fff;
+   font-weight: 900;
+}
+
+.fun {
+    /* CSS generated from https://uigradients.com */
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.font {
+    color: #fff;
+    font-size: 1.9rem;
 }
